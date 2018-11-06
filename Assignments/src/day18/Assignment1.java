@@ -25,7 +25,8 @@ public class Assignment1 {
 		//Enter the email id and password
 		driver.findElement(By.cssSelector("body > div.mCRfo9 > div > div > div > div > div.Km0IJL.col.col-3-5 > div > form > div:nth-child(1) > input")).sendKeys("abc@gmail.com");
 		driver.findElement(By.cssSelector("body > div.mCRfo9 > div > div > div > div > div.Km0IJL.col.col-3-5 > div > form > div:nth-child(2) > input")).sendKeys("password");
-	
+		
+		//sometimes branches confuse you if you don't understand gitbash properly
 	}
 
 }
