@@ -14,7 +14,7 @@ public class Assignment1 {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		driver.get("https://www.flipkart.com/");
+		driver.get("https://www.amazon.com/");
 		
 		//Close the modal-dialog box
 		driver.findElement(By.cssSelector("body > div.mCRfo9 > div > div > button")).click();
@@ -25,8 +25,11 @@ public class Assignment1 {
 		//Enter the email id and password
 		driver.findElement(By.cssSelector("body > div.mCRfo9 > div > div > div > div > div.Km0IJL.col.col-3-5 > div > form > div:nth-child(1) > input")).sendKeys("abc@gmail.com");
 		driver.findElement(By.cssSelector("body > div.mCRfo9 > div > div > div > div > div.Km0IJL.col.col-3-5 > div > form > div:nth-child(2) > input")).sendKeys("password");
+
 		
-		//sometimes branches confuse you if you don't understand gitbash properly
+
+		//Learning Git is easier after learning gitbash
+
 	}
 
 }
