@@ -27,6 +27,7 @@ public class Assignment1 {
 		//driver.findElement(By.cssSelector("body > div.mCRfo9 > div > div > div > div > div.Km0IJL.col.col-3-5 > div > form > div:nth-child(2) > input")).sendKeys("password");
         // Comment By Indu
 		//New Comment By Deepinder
+		//Diwali is a festival of Lights
 
 		//Learning Git is easier after learning gitbash
 
