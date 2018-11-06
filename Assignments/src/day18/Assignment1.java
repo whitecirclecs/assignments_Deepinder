@@ -31,6 +31,7 @@ public class Assignment1 {
         // Diwali is celebrated by all Indians thru out the world 
 
 		//Diwali is a festival of Lights
+		//After Diwali we have Christmas
 
 
 		//Learning Git is easier after learning gitbash
